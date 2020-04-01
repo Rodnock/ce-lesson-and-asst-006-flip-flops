@@ -23,13 +23,13 @@ _Your study and submission work here..._
 
 **1.3.1. A short narrative about the experiment. What is the voltage when the capacitor finishes charging? Why?**  
 
-This is a fairly straightforward experiment to demonstraight a capacitor charging and discharging. When the capacitor is fully charge, it stores 5v when it finishes charging because that is all the voltage we are putting into it. Just as if I have the board set to 3.3v, the capacitor stops charging at 3.3v.
+  This is a fairly straightforward experiment to demonstraight a capacitor charging and discharging. When the capacitor is fully charge, it stores 5v when it finishes charging because that is all the voltage we are putting into it. Just as if I have the board set to 3.3v, the capacitor stops charging at 3.3v.
 
 **1.3.2.The approximate time to charge and discharge the capacitor. (2 values)**
 
-The capacitor charges almost instantly. The discharge takes about a minute.
+  The capacitor charges almost instantly. The discharge takes about a minute.
 
 **1.3.3.An instantaneous value for the charging and discharging currents. (2 values) Note: These currents are not constant, and with this equipment we may only be able to capture an instantaneous non-zero current value.**
 
-I was unable to get any readings for this.
+  I was unable to get any readings for this.
 
