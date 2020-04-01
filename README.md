@@ -46,3 +46,17 @@ Video: https://imgur.com/a/HaZfVZT
 **2.3.3 Short video of the operation of the circuit from 2.2.5.**
 
 Video: https://imgur.com/a/w0J0IIl (I wanted to show that the LED was being controlled by pin 8, and not just on by default, I didn't realize until after that this was what we were supposed to do for 3.2.1 and 3.2.2, so those will be the same.)
+
+### Section 3: Clock signal from the micro:bit
+
+**3.3.1 A short narrative about the experiment.**
+
+This experiment introduces flip flops and square waves, so sort of a "timing" for things turning on and off using binary 0 and 1.
+
+**3.3.2 Short video of the operation of the circuit from 3.2.2.**
+
+Video: https://imgur.com/a/7EPccS8 (Same code as 2.3.3)
+
+**3.3.3 Short video of the operation of the circuit from 3.2.3.**
+
+Video: 
