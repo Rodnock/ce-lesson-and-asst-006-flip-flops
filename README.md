@@ -45,4 +45,4 @@ Video: https://imgur.com/a/HaZfVZT
 
 **2.3.3 Short video of the operation of the circuit from 2.2.5.**
 
-Video: https://imgur.com/a/w0J0IIl
+Video: https://imgur.com/a/w0J0IIl (I wanted to show that the LED was being controlled by pin 8, and not just on by default, I didn't realize until after that this was what we were supposed to do for 3.2.1 and 3.2.2, so I those will be the same.)
