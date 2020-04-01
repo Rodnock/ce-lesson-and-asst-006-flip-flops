@@ -17,7 +17,6 @@ Art acknowledgement: [taag](http://patorjk.com/software/taag/)
 2. Refer to the [submission template](submission-template.md) for formatting expectations and examples. 
 4. Refer to the [criteria and guide](criteria-and-guide.md) for the different components of your submission.
 ---
-_Your study and submission work here..._
 
 ### Section 1: Capacitors
 
@@ -33,6 +32,7 @@ The capacitor charges almost instantly. The discharge takes about a minute.
 
 I was unable to get any readings for this.
 
+---
 ### Section 2: Logic Level Converter
 
 **2.3.1. A short narrative about the experiment.**
@@ -47,6 +47,7 @@ Video: https://imgur.com/a/HaZfVZT
 
 Video: https://imgur.com/a/w0J0IIl (I wanted to show that the LED was being controlled by pin 8, and not just on by default, I didn't realize until after that this was what we were supposed to do for 3.2.1 and 3.2.2, so those will be the same.)
 
+---
 ### Section 3: Clock signal from the micro:bit
 
 **3.3.1 A short narrative about the experiment.**
@@ -61,4 +62,5 @@ Video: https://imgur.com/a/7EPccS8 (Same code as 2.3.3)
 
 Video: https://imgur.com/a/x7yPYUc (I also added a A+B button press to make the timing go back to normal)
 
+---
 ### Section 4: D-type flip-flop
