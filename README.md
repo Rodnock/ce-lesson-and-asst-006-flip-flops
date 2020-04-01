@@ -19,7 +19,7 @@ Art acknowledgement: [taag](http://patorjk.com/software/taag/)
 ---
 _Your study and submission work here..._
 
-### Section 1:
+### Section 1: Capacitors
 
 **1.3.1. A short narrative about the experiment. What is the voltage when the capacitor finishes charging? Why?**  
 
