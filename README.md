@@ -18,3 +18,10 @@ Art acknowledgement: [taag](http://patorjk.com/software/taag/)
 4. Refer to the [criteria and guide](criteria-and-guide.md) for the different components of your submission.
 ---
 _Your study and submission work here..._
+
+**1.3.1.** This is a fairly straightforward experiment to demonstraight a capacitor charging and discharging. When the capacitor is fully charge, it stores 5v when it finishes charging because that is all the voltage we are putting into it. Just as if I have the board set to 3.3v, the capacitor stops charging at 3.3v.
+
+**1.3.2.** The capacitor charges almost instantly. The discharge takes about a minute.
+
+**1.3.3.** I was unable to get any readings for this.
+
