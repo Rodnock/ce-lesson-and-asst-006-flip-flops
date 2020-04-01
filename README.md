@@ -60,3 +60,5 @@ Video: https://imgur.com/a/7EPccS8 (Same code as 2.3.3)
 **3.3.3 Short video of the operation of the circuit from 3.2.3.**
 
 Video: https://imgur.com/a/x7yPYUc (I also added a A+B button press to make the timing go back to normal)
+
+### Section 4: D-type flip-flop
