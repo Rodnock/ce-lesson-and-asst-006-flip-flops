@@ -45,4 +45,4 @@ Video: https://imgur.com/a/HaZfVZT
 
 **2.3.3 Short video of the operation of the circuit from 2.2.5.**
 
-Video: 
+Video: https://imgur.com/a/w0J0IIl
