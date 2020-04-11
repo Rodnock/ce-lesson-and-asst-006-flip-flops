@@ -72,3 +72,5 @@ Video: https://imgur.com/a/x7yPYUc (I also added a A+B button press to make the 
 **4.3.3 Short video of the operation of the circuit from 4.2.6.**
 
 Video: https://imgur.com/a/9bmkHth (I didn't see any difference in the circuit operation between 4.2.6 and 4.2.7. There was no noticable lag no matter what the timing was, as you can see in this video.)
+
+---
