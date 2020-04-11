@@ -64,3 +64,11 @@ Video: https://imgur.com/a/x7yPYUc (I also added a A+B button press to make the 
 
 ---
 ### Section 4: D-type flip-flop
+
+**4.3.1 A short narrative about the experiment.
+
+**4.3.2 An image with your hand-drawn diagram of the whole circuit. Use boxes for the micro:bit, converter board, and the flip-flop chip. Label all pins.
+
+**4.3.3 Short video of the operation of the circuit from 4.2.6.
+
+Video: https://imgur.com/a/9bmkHth (I didn't see any difference in the circuit operation between 4.2.6 and 4.2.7. There was no noticable lag no matter what the timing was, as you can see in this video.)
