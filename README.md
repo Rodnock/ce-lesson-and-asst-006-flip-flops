@@ -67,7 +67,11 @@ Video: https://imgur.com/a/x7yPYUc (I also added a A+B button press to make the 
 
 **4.3.1 A short narrative about the experiment.**
 
+This experiment shows how flip flops can be used to switch between more than one circuit. This one swaps between the circuits on 1Q and 1/Q based on the timing of the square wave that the microbit is creating.
+
 **4.3.2 An image with your hand-drawn diagram of the whole circuit. Use boxes for the micro:bit, converter board, and the flip-flop chip. Label all pins.**
+
+Drawing: https://imgur.com/a/zmtgjn1
 
 **4.3.3 Short video of the operation of the circuit from 4.2.6.**
 
@@ -75,3 +79,28 @@ Video: https://imgur.com/a/9bmkHth (I didn't see any difference in the circuit o
 
 ---
 ### Section 5: Reading clocked flip-flop output with the micro:bit
+
+**5.3.1 A short narrative about the experiment.**
+
+This experiment takes microbit and flip flop implimentation a step further. There is now a pin (P2, in this case) that is reading wat is happening with the square wave, and actives and deactivates an LED (0, 1) when the square wave doing on high-low cycle.
+
+**5.3.2 Answers to the questions in 5.1.**
+
+An event is something that happens that inturrupts the current code that is being executed. I.E. A button being pressed, or the pulse changing.
+
+An event handler is a function that executes a portion of code when the event that it is tied to takes place.
+
+Asynchronus execution means that these events can be anywhere in the code, they don't have to be in order for them to take place. 
+
+**5.3.3 Answers to the questions in 5.2.**
+
+input.onButtonPressed
+pins.onPulsed
+
+**5.3.4 An image with your hand-drawn diagram of the whole circuit. Use boxes for the micro:bit, converter board, and the flip-flop chip. Label all pins.**
+
+Image: https://imgur.com/a/lClB5zg
+
+**5.3.5 Short video of the operation of the circuit from 5.2.4.**
+
+Video: https://imgur.com/a/9Tt2cSP
