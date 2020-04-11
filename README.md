@@ -94,8 +94,9 @@ Asynchronus execution means that these events can be anywhere in the code, they 
 
 **5.3.3 Answers to the questions in 5.2.**
 
-input.onButtonPressed
-pins.onPulsed
+-input.onButtonPressed
+
+-pins.onPulsed
 
 **5.3.4 An image with your hand-drawn diagram of the whole circuit. Use boxes for the micro:bit, converter board, and the flip-flop chip. Label all pins.**
 
@@ -104,3 +105,5 @@ Image: https://imgur.com/a/lClB5zg
 **5.3.5 Short video of the operation of the circuit from 5.2.4.**
 
 Video: https://imgur.com/a/9Tt2cSP
+
+---
