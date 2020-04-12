@@ -1,3 +1,5 @@
+
+
 let bit0: number = 0
 let bit1: number = 0
 let bit2: number = 0
@@ -39,11 +41,11 @@ pins.onPulsed(DigitalPin.P16, PulseValue.High, function () {
 })
 
 function bin2dec() {
-    basic.showNumber((bit0 * 1) + (bit1 * 2) + (bit2 * 4))
+    return((bit0 * 1) + (bit1 * 2) + (bit2 * 4))
 }
 
 basic.forever(function () {
-    bin2dec()
+    basic.showNumber(bin2dec())
 })
 
 basic.forever(function () {
