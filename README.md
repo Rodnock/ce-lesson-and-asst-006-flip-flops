@@ -107,3 +107,16 @@ Image: https://imgur.com/a/lClB5zg
 Video: https://imgur.com/a/9Tt2cSP
 
 ---
+### Section 6: 3-bit modulus counter
+
+**6.3.1 A short narrative about the experiment.**
+
+**6.3.2 Answers to the questions in 6.1.**
+
+**6.3.3 Answers to the questions in 6.2.**
+
+**6.3.4 An image with your hand-drawn diagram of the whole circuit. Use boxes for the micro:bit, converter board, and the flip-flop chip. Label all pins.**
+
+**6.3.5 Short video of the operation of the circuit from 6.2.6.**
+
+Video: https://imgur.com/a/BptVNaX
