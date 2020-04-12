@@ -123,8 +123,16 @@ This experiment adds more complexity to the Section 5 flip flop outputs. There a
 
 **6.3.3 Answers to the questions in 6.2.**
 
+6.2.4 Explain in what order the 3 bits should be read to properly represent a binary integer: The bits need to be read left ro right, as long as they output on the microbit from right to left.
+
+6.2.5 Explain whether the events at which your took the readings in the previous sections are still the appropriate times to read all three digital input pins, or, if not, what the appropriate time is: Yes, the readings should still be taken when the pulse received it high or low.
+
+6.2.6 Do you have a 3-bit mod-8 counter or something else? If it's indeed a counter, is it counting upward or downward? When you turn the power off and on repeatedly, does the direction change? Explain why or why not: This is a 3-bit mod-8 counter. It counts upward from 0 to 7. When turned on and off, the direction remains upward because the pulse still runs through the circuit in the same direction.
+
 **6.3.4 An image with your hand-drawn diagram of the whole circuit. Use boxes for the micro:bit, converter board, and the flip-flop chip. Label all pins.**
+
+Image: https://imgur.com/a/9H0VZch
 
 **6.3.5 Short video of the operation of the circuit from 6.2.6.**
 
-Video: https://imgur.com/a/BptVNaX
+Video: https://imgur.com/a/d9tTHau
