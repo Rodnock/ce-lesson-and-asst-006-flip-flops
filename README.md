@@ -175,6 +175,8 @@ Video: https://imgur.com/a/SOTC3Qa
 
 **8.3.1 A narrative about the experiment.**
 
+This experiment shows us how to refresh the counter if necessary by sending a low pulse throught the circuit and then returning to a high pulse after a short pause.
+
 **8.3.2 Answers to the questions in 8.1.**
 
 8.1.1 The control signals are /PRE and /CLR. Where does it say so?: It says in the description that depending on what level is going into preset and clear, it dictates what the output is.
@@ -187,6 +189,12 @@ Video: https://imgur.com/a/SOTC3Qa
 
 **8.3.3 Answers to the questions in 8.2.**
 
+8.2.4 Modify the program from 7.2.2 to output a short low pulse (see diagram below) at the digital write pin on a simultaneous press of both buttons. How will you do this in code?: by using input.onButtonPressed for AB, sending a pulse of 0 through the pin, pausing for 100ms, and then sending a pulse of 1.
+
+8.2.5 Power and run the circuit with the new program. What counter do you have now?: The circuit now displays 0 through 3.
+
+8.2.6 Press AB to initialize the counter in the proper known state 00. Is it working? If your counter was counting downward, does this fix it? Explain what you see to the best of your knowledge: The counter briefly shows 3 and then returns to 0 and starts counting to three and looping around, as it was before. I have never had my counter count downward.
+
 **8.3.4 Short video of the operation of the circuit and program from 8.2.6.**
 
-Video: 
+Video: https://imgur.com/a/w3MVtII
