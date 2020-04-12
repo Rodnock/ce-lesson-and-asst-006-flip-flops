@@ -156,8 +156,18 @@ Video: https://imgur.com/a/d9tTHau
 
 **7.3.3 Answers to the questions in 7.2.**
 
+7.2.2.i Is your counter displaying correctly?: Yes, it displays 0-7 in order.
+
+7.2.2.ii Do you notice some numbers displaying longer than others (that is, clock skew)?: Yes, some numbers display longer than others, and it seems to differ each time through the loop.
+
+7.2.2.iii Does the unevenness, if any, change with increasing or decreasing the clock frequency? Why or why not?: It doesn't seem to be as noticable with a longer clock timer, but the unevenness is still there. I tested at both 1 second and half a second.
+
+7.2.2.iv Is the (0, 0) LED still blink evenly with the clock? Why or why not?: Yes, the LED still blinks on time as it should be. I assume this is because the forever loop that has the LED timing in it does not have to worry about any event handlers, and it is the event handlers that are causing the lag in the number display changing.
+
+7.2.3 Revisit your discussion on separating subprograms in multiple forever loops: It seems like events and event handlers can cause lag, while forever loops that can just run without checking for anything seem to run without lag.
+
 **Short video of the operation of the circuit and program from 7.2.2.**
 
-Video: 
+Video: https://imgur.com/a/SOTC3Qa
 
 ---
