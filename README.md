@@ -136,3 +136,18 @@ Image: https://imgur.com/a/9H0VZch
 **6.3.5 Short video of the operation of the circuit from 6.2.6.**
 
 Video: https://imgur.com/a/d9tTHau
+
+---
+### Section 7: Display decoded counter output on micro:bit LED matrix
+
+**7.3.1 A narrative about the experiment.**
+
+**7.3.2 Answers to the questions in 7.1.**
+
+**7.3.3 Answers to the questions in 7.2.**
+
+**Short video of the operation of the circuit and program from 7.2.2.**
+
+Video: 
+
+---
