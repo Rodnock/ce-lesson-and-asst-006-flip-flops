@@ -111,7 +111,15 @@ Video: https://imgur.com/a/9Tt2cSP
 
 **6.3.1 A short narrative about the experiment.**
 
+This experiment adds more complexity to the Section 5 flip flop outputs. There are now three flip flops, and each one sends a signal to the next, instead of them all getting a signal from the microbit. The far left flip flop gets a signal from the microbit, and after the pulse changes it sends that signal to the next one, which does the same thing for the final one. Each flip flop also sends a signal back to the microbit when it's pulse changes so that it can plot or unplot the corrosponding LED, creating binary on the microbit LED board.
+
 **6.3.2 Answers to the questions in 6.1.**
+
+6.1.1 How many states does a mod-n counter have?: A mod counter has two states, 1 or 0. When are are multiple counters in a line, they have 2^n states, where n is the number of counters. For example, our circuit has 8 states, because there are three flip flops, and 2^3 = 8.
+
+6.1.2 What minimum number of bits is required to represent a mod-N counter, where N is some natural number?: The minimum is two bits of data. As states above, the counter has two states, so it would need at least two bits of data to function properly.
+
+6.1.3 Study the following circuit, which is a mod-8 counter, and explain how it works: The left flip flop receives its signal from the microbit in the 1CLK pin. Whenever it receives a high pulse from the microbit, it sends a signal back to the read pin, and also the next next flip flop. When the second flip flop receives a high pulse, it does the same thing, sending a pulse back to the microbit and to the next flip flop. The final flip flop only sends a signal back to the microbit.
 
 **6.3.3 Answers to the questions in 6.2.**
 
