@@ -144,6 +144,16 @@ Video: https://imgur.com/a/d9tTHau
 
 **7.3.2 Answers to the questions in 7.1.**
 
+7.1.1 How many digits does a 3-bit binary number have when converted to decimal?: 1 digit.
+
+7.1.2.i In your words, what is your understanding of an event after doing the reading?: My understanding up events remains the same. An event is something that happens that inturrupts the current code that is being executed. I.E. A button being pressed, or the pulse changing.
+
+7.1.2.ii In your words, how does the micro:bit achieve the illusion of execution at the same time?: The Microbit is constantly checking to see if events are happening, and will execute an event handler when it happens.
+
+7.1.2.iii In your words, what does the scheduler do and how do you think it might cause the subprogram that you wrote to do one thing a certain way to actually do it another way or do something entirely unintended?: The scheduler allows the microbit to queue up events and keep track of the event handlers for when that event happens. This might cause the microbit to get confused if multi events happen at once, there could be overlap of the event handlers.
+
+7.1.2.iv In the light of what you read, discuss the pros and cons of putting the square wave generator subprogram and the binary decoding in two separate forever loops: The pro is that the microbit would be able to run two two functions simultaniously. The con is that it might cause lag with one or the other because there is only so much that it can try and do at the same time.
+
 **7.3.3 Answers to the questions in 7.2.**
 
 **Short video of the operation of the circuit and program from 7.2.2.**
