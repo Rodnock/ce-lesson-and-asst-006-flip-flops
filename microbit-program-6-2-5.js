@@ -34,11 +34,11 @@ function halfTime() {
 }
 
 pins.onPulsed(DigitalPin.P2, PulseValue.Low, function () {
-    led.unplot(0, 1)
+    led.unplot(2, 1)
 })
 
 pins.onPulsed(DigitalPin.P2, PulseValue.High, function () {
-    led.plot(0, 1)
+    led.plot(2, 1)
 })
 
 pins.onPulsed(DigitalPin.P12, PulseValue.Low, function () {
@@ -50,11 +50,11 @@ pins.onPulsed(DigitalPin.P12, PulseValue.High, function () {
 })
 
 pins.onPulsed(DigitalPin.P16, PulseValue.Low, function () {
-    led.unplot(2, 1)
+    led.unplot(0, 1)
 })
 
 pins.onPulsed(DigitalPin.P16, PulseValue.High, function () {
-    led.plot(2, 1)
+    led.plot(0, 1)
 })
 
 let buttonArray: Button[] = [Button.A, Button.B]
