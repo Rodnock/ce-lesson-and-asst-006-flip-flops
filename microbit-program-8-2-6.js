@@ -1,66 +1,45 @@
-let bit1: boolean = false
-let bit2: boolean = false
-let bit3: boolean = false
+let bit0: number = 0
+let bit1: number = 0
+let bit2: number = 0
 
 input.onButtonPressed(Button.AB, function () {
     pins.digitalWritePin(DigitalPin.P1, 0)
+    basic.pause(100)
+    pins.digitalWritePin(DigitalPin.P1, 1)
 })
 
 pins.onPulsed(DigitalPin.P2, PulseValue.Low, function () {
-    bit1 = false
+    bit0 = 0
     // led.unplot(2, 1)
 })
 
 pins.onPulsed(DigitalPin.P2, PulseValue.High, function () {
-    bit1 = true
+    bit0 = 1
     // led.plot(2, 1)
 })
 
 pins.onPulsed(DigitalPin.P12, PulseValue.Low, function () {
-    bit2 = false
+    bit1 = 0
     // led.unplot(1, 1)
 })
 
 pins.onPulsed(DigitalPin.P12, PulseValue.High, function () {
-    bit2 = true
+    bit1 = 1
     // led.plot(1, 1)
 })
 
 pins.onPulsed(DigitalPin.P16, PulseValue.Low, function () {
-    bit3 = false
+    bit2 = 0
     // led.unplot(0, 1)
 })
 
 pins.onPulsed(DigitalPin.P16, PulseValue.High, function () {
-    bit3 = true
+    bit2 = 1
     // led.plot(0, 1)
 })
 
 function bin2dec() {
-    if (bit1 == false && bit2 == false && bit3 == false) {
-        basic.showNumber(0)
-    }
-    else if (bit1 == true && bit2 == false && bit3 == false) {
-        basic.showNumber(1)
-    }
-    else if (bit1 == false && bit2 == true && bit3 == false) {
-        basic.showNumber(2)
-    }
-    else if (bit1 == true && bit2 == true && bit3 == false) {
-        basic.showNumber(3)
-    }
-    else if (bit1 == false && bit2 == false && bit3 == true) {
-        basic.showNumber(4)
-    }
-    else if (bit1 == true && bit2 == false && bit3 == true) {
-        basic.showNumber(5)
-    }
-    else if (bit1 == false && bit2 == true && bit3 == true) {
-        basic.showNumber(6)
-    }
-    else if (bit1 == true && bit2 == true && bit3 == true) {
-        basic.showNumber(7)
-    }
+    basic.showNumber((bit0 * 1) + (bit1 * 2) + (bit2 * 4))
 }
 
 basic.forever(function () {
