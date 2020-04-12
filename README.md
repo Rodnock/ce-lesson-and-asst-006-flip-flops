@@ -171,3 +171,22 @@ Video: https://imgur.com/a/d9tTHau
 Video: https://imgur.com/a/SOTC3Qa
 
 ---
+### Section 8: Flip-flop control signals
+
+**8.3.1 A narrative about the experiment.**
+
+**8.3.2 Answers to the questions in 8.1.**
+
+8.1.1 The control signals are /PRE and /CLR. Where does it say so?: It says in the description that depending on what level is going into preset and clear, it dictates what the output is.
+
+8.1.2 They override all other signals. Where is this shown?: It says in the description that "a low level at the preset or clean inputs sets or resets the outputs regardless of the levels of the other inputs."
+
+8.1.3 They are active low. How can you determine that?: Both preset and clear have the line over the top of them.
+
+8.1.4 /PRE forces Q to logic high, whereas /CLR forces it to logic low. Explain how this is known?: The transistors inside the flip flop are designed so that /PRE and /CLR do the opposite based on the signal that CLK is giving the chip.
+
+**8.3.3 Answers to the questions in 8.2.**
+
+**8.3.4 Short video of the operation of the circuit and program from 8.2.6.**
+
+Video: 
